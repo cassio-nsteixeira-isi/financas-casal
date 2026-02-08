@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Finanças Casal 💰
 
-## Getting Started
+Sistema de controle financeiro desenvolvido para gestão de gastos familiares compartilhados.
 
-First, run the development server:
+## 🚀 Tecnologias
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Framework:** Next.js 14 (App Router)
+- **Estilização:** Tailwind CSS
+- **Backend/DB:** Firebase (Firestore + Auth)
+- **Linguagem:** TypeScript
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🔐 Login social com Google
+- 🏠 Gestão compartilhada (Conceito de "Família")
+- 📅 Controle de Custos Fixos recorrentes
+- 💳 Gestão inteligente de Compras Parceladas (projeção futura)
+- 📊 Cotas de gastos variáveis com barras de progresso
+- 📈 Dashboard com visão geral e saldo mensal
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Como rodar
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone o projeto
+2. Instale as dependências: `npm install`
+3. Configure o `.env.local` com suas chaves do Firebase
+4. Rode o servidor: `npm run dev`
